@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex" />
+	<title>Сыры</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<!-- Модальное окно -->
+	<div class="modal" id="modal-1">
+		<div class="modal-block">
+			<div class="modal__close"></div>
+			<h3 class="modal__title">Заказать</h3>
+			<span class="modal__sub">Оставьте свои данные и мы с Вами свяжемся!</span>
+			<form class="modal-form">
+				<input name="name" id="name" type="text" placeholder="Имя" class="modal-form__input">
+				<input name="phone" id="phone" type="tel" placeholder="Телефон" class="modal-form__input">
+				<button class="modal-form__btn btn">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<div class="background">
+		<!-- Логотип, навигация, контакты -->
+		<header class="header">
+			<div class="container">
+				<div class="header-block">
+					<a href="#" class="header-block__logo">
+						<img src="img/header/logo.png" alt="тремпелне" class="header-block__img">
+					</a>
+					<div class="header-block__navigation">
+						<a href="#advantage" class="header-block__link">О нас</a>
+						<a href="#catalog" class="header-block__link">Каталог сыров</a>
+						<a href="#contacts" class="header-block__link">Контакты</a>
+					</div>
+					<div class="header-block__connection">
+						<div class="header-block__call">
+							<img src="img/header/call.svg" alt="телефон" class="header-block__phone">
+							<a href="tel:89219345676" class="header-block__tel">+ 7 (921) 934 56 76</a>
+						</div>
+						<a href="#modal-1" class="header-block__request">Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Главный экран -->
+		<section class="hero" id="hero">
+			<div class="container">
+				<div class="hero-block">
+					<img src="img/hero/parallax-a.png" alt="Изображение" class="hero-block__img">
+					<div class="hero-info">
+						<h1 class="hero__title"><span>Греческая сыроварня в России</span>
+							с нами санкции не страшны</h1>
+						<h2 class="hero__subtitle">Доставим по СПБ в день заказа</h2>
+						<span class="hero__text">При подтверждении <span><b>после 21:47</b></span> доставим на следущий день</span>
+						<a href="#modal-1" class="hero__btn btn">Заказать</a>
+					</div>
+					<div class="hero-image">
+						<img src="img/hero/hero.png" alt="изображение сыров" class="hero__img">
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- Преимущества -->
+	<section class="advantage" id="advantage">
+		<div class="container">
+			<h2 class="advantage__title title">Греческие сыры на вашем столе - не миф, а реальность</h2>
+			<div class="advantage__block">
+				<img src="img/advantage/parallax-b.png" alt="Изображение" class="advantage__block-img-a">
+				<img src="img/advantage/parallax-c.png" alt="Изображение" class="advantage__block-img-b">
+				<div class="advantage-card">
+					<img src="img/advantage/povar.png" alt="" class="advantage-card__img-a">
+					<h3 class="advantage-card__title">Собственное производство</h3>
+					<span class="advantage-card__text">
+						Мы самостоятельно производим</br>
+						<span><b>Греческий сыр в России</b></span>
+					</span>
+				</div>
+				<div class="advantage-card">
+					<img src="img/advantage/milk.png" alt="" class="advantage-card__img-b">
+					<h3 class="advantage-card__title advantage-card__title-a">Натуральное молоко</h3>
+					<span class="advantage-card__text advantage-card__text-a">
+						Мы используем только</br>
+						<span><b>фермерское молоко</b></span></br>
+						без консерванов и прочей химии
+					</span>
+				</div>
+				<div class="advantage-card">
+					<img src="img/advantage/cheese.png" alt="" class="advantage-card__img-c">
+					<h3 class="advantage-card__title">Сыры на любой вкус</h3>
+					<span class="advantage-card__text">
+						В нашей продуктовой линейке</br> 45 сортов сыра, 15 из которых вы</br> можете преобрести <span><b>в день
+								заказа</b></span>
+					</span>
+				</div>
+				<div class="advantage-card">
+					<img src="img/advantage/plate.png" alt="" class="advantage-card__img-d">
+					<h3 class="advantage-card__title advantage-card__title-b">Травы и специи из Греции</h3>
+					<div class="advantage-card__flavoring">
+						<div class="advantage-card__left">
+							<span class="advantage-card__left-text">- Мята</span>
+							<span class="advantage-card__left-text">- Перец</span>
+							<span class="advantage-card__left-text">- Чеснок</span>
+						</div>
+						<div class="advantage-card__right">
+							<span class="advantage-card__left-text">- Базилик</span>
+							<span class="advantage-card__left-text">- Паприка</span>
+							<span class="advantage-card__left-text"> и только</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Для кого наши сыры? -->
+	<section class="for-whom">
+		<div class="container">
+			<h2 class="for-whom__title title">Для кого наши сыры?</h2>
+			<div class="for-whom-block">
+				<div class="for-whom-top">
+					<div class="for-whom-top__left">
+						<span class="for-whom-top__number">01</span>
+						<span class="for-whom-top__text">Для тех, кто ценит <span><b>качество</br>
+									и традиции сыроварения</b></span>
+							<div class="for-whom-top__lines-a">
+								<span class="for-whom-top__line-a-a"></span>
+								<span class="for-whom-top__line-a-b"></span>
+							</div>
+					</div>
+					<div class="for-whom-top__right">
+						<span class="for-whom-top__number">03</span>
+						<span class="for-whom-top__text">Для тех, кто хочет познакомиться</br>
+							<span><b>с Греческими сырами</b></span></span>
+						<div class="for-whom-top__lines-b">
+							<span class="for-whom-top__line-b-a"></span>
+							<span class="for-whom-top__line-b-b"></span>
+						</div>
+					</div>
+				</div>
+				<img src="img/for-whom/cheese.png" alt="Изображение" class="for-whom-block__img">
+				<div class="for-whom-bottom">
+					<div class="for-whom-bottom__left">
+						<span class="for-whom-bottom__number">02</span>
+						<span class="for-whom-bottom__text">Для тех, кто ценит
+							<span><b>натуральный</br> продукт</b></span> и следит за своим здоровьем</span>
+						<div class="for-whom-top__lines-a">
+							<span class="for-whom-bottom__line-a-a"></span>
+							<span class="for-whom-bottom__line-a-b"></span>
+						</div>
+					</div>
+					<div class="for-whom-bottom__right">
+						<span class="for-whom-bottom__number">04</span>
+						<span class="for-whom-bottom__text"><span><b>Для ресторанов</b></span> и винных баров,</br>
+							которые ценят качество и вкус</span>
+						<div class="for-whom-top__lines-b">
+							<span class="for-whom-bottom__line-b-a"></span>
+							<span class="for-whom-bottom__line-b-b"></span>
+						</div>
+					</div>
+				</div>
+				<img src="img/for-whom/parallax-e.png" alt="Изображение" class="for-whom-block__img-a">
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Cостав сыра -->
+	<section class="composition">
+		<div class="container">
+			<h2 class="composition__title title">Что входит в состав сыра?</h2>
+			<div class="composition-block">
+				<img src="img/composition/semicircle.png" alt="Полукруг" class="composition-block__semicircle">
+				<img src="img/composition/cheese.png" alt="Тарелка с сыром" class="composition-block__cheese">
+				<div class="composition-block__product composition-block__product-a">
+					<span class="composition-block__text">Молоко</span>
+					<img src="img/composition/plus.png" alt="Иконка" class="composition-block__img">
+				</div>
+				<div class="composition-block__product composition-block__product-b">
+					<span class="composition-block__text">Специи</span>
+					<img src="img/composition/plus.png" alt="Иконка" class="composition-block__img">
+				</div>
+				<div class="composition-block__product composition-block__product-c">
+					<span class="composition-block__text">Традиционный рецепт</span>
+					<img src="img/composition/plus.png" alt="Иконка" class="composition-block__img">
+				</div>
+				<div class="composition-block__product composition-block__product-d">
+					<span class="composition-block__text">Закваска</span>
+					<img src="img/composition/plus.png" alt="Иконка" class="composition-block__img">
+				</div>
+				<div class="composition-block__product composition-block__product-e">
+					<span class="composition-block__text">Соль</span>
+					<img src="img/composition/plus.png" alt="Иконка" class="composition-block__img">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- В чём отличие от сыра из Греции? -->
+	<section class="differ" id="differ">
+		<div class="container">
+			<h2 class="differ__title title">В чём отличие от сыра из Греции?</h2>
+			<div class="differ-block">
+				<img src="img/differ/parallax-f.png" alt="Изображение" class="differ-block__img-a">
+				<img src="img/differ/parallax-g.png" alt="Изображение" class="differ-block__img-b">
+				<div class="differ-card">
+					<img src="img/differ/cheese-1.png" alt="Греческий сыр из Пскова" class="differ-card__img">
+					<h3 class="differ-card__title">Греческий сыр из Пскова</h3>
+					<div class="differ-card__block">
+						<div class="differ-card__list">
+							<img src="img/differ/verified.svg" alt="галочка" class="differ-card__icon">
+							<span class="differ-card__text">Следование традициям и технологиям</span>
+						</div>
+						<div class="differ-card__list">
+							<img src="img/differ/verified.svg" alt="галочка" class="differ-card__icon">
+							<span class="differ-card__text">Ингридиетны высокого качества</span>
+						</div>
+						<div class="differ-card__list differ-card__al">
+							<img src="img/differ/verified.svg" alt="галочка" class="differ-card__icon">
+							<span class="differ-card__text">Собственные традиции и верность
+								старинным рецептам</span>
+						</div>
+						<div class="differ-card__list">
+							<img src="img/differ/verified.svg" alt="галочка" class="differ-card__icon">
+							<span class="differ-card__text">Сыр на вашем столе столе в день заказа</span>
+						</div>
+					</div>
+					<a href="#modal-1" class="differ-card__btn btn">Заказать на сегодня</a>
+				</div>
+				<div class="differ-card-2">
+					<img src="img/differ/cheese-2.png" alt="Сыр из Греции" class="differ-card-2__img">
+					<h3 class="differ-card-2__title">Сыр из Греции</h3>
+					<div class="differ-card-2__block">
+						<div class="differ-card-2__list">
+							<img src="img/differ/verified.svg" alt="галочка" class="differ-card-2__icon">
+							<span class="differ-card-2__text">Следование традициям и технологиям</span>
+						</div>
+						<div class="differ-card-2__list">
+							<img src="img/differ/verified.svg" alt="галочка" class="differ-card-2__icon">
+							<span class="differ-card-2__text">Ингридиетны высокого качества</span>
+						</div>
+						<div class="differ-card-2__list differ-card-2__al">
+							<img src="img/differ/verified.svg" alt="галочка" class="differ-card-2__icon">
+							<span class="differ-card-2__text">Собственные традиции и верность
+								старинным рецептам</span>
+						</div>
+						<div class="differ-card-2__list">
+							<img src="img/differ/close.svg" alt="крестик" class="differ-card-2__icon">
+							<span class="differ-card-2__text">Невозможно достать из-за санкций</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Каталог сыров -->
+	<section class="catalog" id="catalog">
+		<div class="container">
+			<h2 class="catalog__title title">Каталог сыров</h2>
+			<div class="swiper catalog-swiper">
+				<div class="swiper-wrapper catalog-swiper-wrapper">
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-1.png" alt="ГРАВЬЕРА" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">ГРАВЬЕРА</h3>
+						<span class="catalog-slide__sub">классика твердый</span>
+						<h3 class="catalog-slide__price">180 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-2.png" alt="ГРАВЬЕРА" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">ГРАВЬЕРА</h3>
+						<span class="catalog-slide__sub">с перцем буково твердый</span>
+						<h3 class="catalog-slide__price">160 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-3.png" alt="ГРАВЬЕРА" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">ГРАВЬЕРА</h3>
+						<span class="catalog-slide__sub">4 перца твердый</span>
+						<h3 class="catalog-slide__price">160 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-1.png" alt="Масло сливочное" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">Масло сливочное</h3>
+						<span class="catalog-slide__sub">с чесноком и базиликом</span>
+						<h3 class="catalog-slide__price">190 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-2.png" alt="ОЛИМПУС" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">ОЛИМПУС</h3>
+						<span class="catalog-slide__sub">полутвердый</span>
+						<h3 class="catalog-slide__price">145 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-3.png" alt="Греческий йогурт" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">Греческий йогурт</h3>
+						<span class="catalog-slide__sub">греческий йогурт</span>
+						<h3 class="catalog-slide__price">190 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-1.png" alt="ПАСКИТАН" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">ПАСКИТАН</h3>
+						<span class="catalog-slide__sub">с мятой крем-сыр</span>
+						<h3 class="catalog-slide__price">300 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-2.png" alt="ГАЛОТИРИ" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">ГАЛОТИРИ</h3>
+						<span class="catalog-slide__sub">мягкий</span>
+						<h3 class="catalog-slide__price">250 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-3.png" alt="ХОРЬЯТИКИ" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">ХОРЬЯТИКИ</h3>
+						<span class="catalog-slide__sub">типа Фета</span>
+						<h3 class="catalog-slide__price">85 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-1.png" alt="ГРЕКО" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">ГРЕКО</h3>
+						<span class="catalog-slide__sub">чеснок/базилик полутвердый</span>
+						<h3 class="catalog-slide__price">190 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-2.png" alt="ГРЕКО" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">ГРЕКО</h3>
+						<span class="catalog-slide__sub">с паприкой полутвердый</span>
+						<h3 class="catalog-slide__price">190 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+					<div class="swiper-slide catalog-slide">
+						<img src="img/catalog/slide-3.png" alt="ГРЕКО" class="catalog-slide__img">
+						<h3 class="catalog-slide__title">ГРЕКО</h3>
+						<span class="catalog-slide__sub">классика полутвердый</span>
+						<h3 class="catalog-slide__price">180 руб.</h3>
+						<a href="#modal-1" class="catalog-slide__btn btn">Заказать</a>
+					</div>
+				</div>
+			</div>
+			<div class="catalog-block">
+				<img src="img/catalog/vin-a.png" alt="Изображение" class="catalog-block__img-a">
+				<img src="img/catalog/vin-b.png" alt="Изображение" class="catalog-block__img-b">
+				<img src="img/catalog/vin-c.png" alt="Изображение" class="catalog-block__img-c">
+				<img src="img/catalog/vin-d.png" alt="Изображение" class="catalog-block__img-d">
+				<div class="catalog-card">
+					<span class="catalog-card__text">
+						Промо-ролик нашей сыроварни
+						и возможность одним глазком
+						заглянуть на производство.
+					</span>
+				</div>
+				<div class="catalog-right">
+					<img src="img/catalog/Mac.png" alt="Mac" class="catalog-right__img">
+					<div class="catalog-right__video">
+						<video src="video/video.mp4" type="video/mp4" class="catalog-right__item" poster="img/catalog/video.png"
+							controls></video>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Доверие -->
+	<section class="confidence">
+		<div class="container">
+			<h2 class="confidence__title title">Вы можете нам доверять</h2>
+			<div class="confidence__block">
+				<img src="img/confidence/pom-a.png" alt="Изображение" class="confidence-img-a">
+				<img src="img/confidence/pom-b.png" alt="Изображение" class="confidence-img-b">
+				<div class="confidence-card">
+					<img src="img/confidence/card-a.png" alt="Изображение" class="confidence-card__img-a">
+					<h4 class="confidence-card__title">Цена соответствует качеству</h4>
+					<span class="confidence-card__text">
+						Качественный сыр не может стоить дешево,
+						при его производстве используются натуральные
+						ингредиенты. Мы применяем проверенные
+						технологии приготовления и соблюдаем
+						все показатели качества.
+					</span>
+				</div>
+				<div class="confidence-card">
+					<img src="img/confidence/card-b.png" alt="Изображение" class="confidence-card__img-b">
+					<h4 class="confidence-card__title">Безопасность продукта</h4>
+					<span class="confidence-card__text">
+						Мы самостоятельно производим сыр,
+						контролируем все технологические процессы,
+						следуем всем рецептурам приготовления.</br>
+						Наш сыр - это продукт высокого качества
+						абсолютно безопасный в употреблении.
+					</span>
+				</div>
+				<div class="confidence-card">
+					<img src="img/confidence/card-c.png" alt="Изображение" class="confidence-card__img-c">
+					<h4 class="confidence-card__title">Удобная упаковка для хранения</h4>
+					<span class="confidence-card__text">
+						Мы специально разработали удобную</br>
+						упаковку для наших сыров,чтобы сыр</br>
+						можно было удобно хранить без потери</br>
+						качества после открытия упаковки.
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Основатель -->
+	<section class="founder">
+		<div class="container">
+			<h2 class="founder__title title">Под контролем технолога грека</h2>
+			<div class="founder-block">
+				<img src="img/founder/pom-c.png" alt="Изображение" class="founder-block__img-a">
+				<img src="img/founder/pom-d.png" alt="Изображение" class="founder-block__img-b">
+				<span class="founder-block__title">Знакомьтесь!</span>
+				<span class="founder-block__text-a">
+					Грек, сыровар в третьем поколении.</br>
+					В детства пас с дедом овец на заливных лугах</br>
+					и мечтал о деле, которое будет любить всем сердцем.
+				</span>
+				<span class="founder-block__text-b">
+					Мальчишкой всё свободное время</br>
+					проводил на сыроварне.
+				</span>
+				<span class="founder-block__text-b">
+					Главная страсть - семья, сыр и лошади!</br>
+					Мечтает, чтобы дети продолжили его дело.
+				</span>
+				<img src="img/founder/founder.png" alt="Ставрос Тремпелис" class="founder-block__img">
+				<div class="founder-card">
+					<span class="founder-card__title">Ставрос Тремпелис</span>
+					<span class="founder-card__text">Мозг предприятия</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Что говорят о продукте наши клиенты -->
+	<section class="say">
+		<div class="container">
+			<h2 class="say__title title">Что говорят о продукте наши клиенты</h2>
+			<div class="say__block">
+				<img src="img/questions/pom-e.png" alt="Изображение" class="say__img-a">
+				<div class="say-card">
+					<img src="img/say/a.png" alt="Изображение" class="say-card__img">
+					<span class="say-card__text">
+						Радует профессиональный подход</br>
+						к делу, качественные ингредиенты,</br>
+						натуральный вкус!
+					</span>
+				</div>
+				<div class="say-card">
+					<img src="img/say/b.png" alt="Изображение" class="say-card__img">
+					<span class="say-card__text">
+						Самая любимая доставка сыров.</br>
+						Все быстро, вкусно и натурально.</br>
+						Заказываем не первый раз, спасибо!
+					</span>
+				</div>
+				<div class="say-card">
+					<img src="img/say/c.png" alt="Изображение" class="say-card__img">
+					<span class="say-card__text">
+						Доставка в день заказа радует,</br>
+						сыры очень вкусные, обладают</br>
+						пикантным вкусом. Будем</br>
+						заказывать еще!
+					</span>
+				</div>
+				<div class="say-card">
+					<img src="img/say/d.png" alt="Изображение" class="say-card__img">
+					<span class="say-card__text">
+						Широкий ассортимент и регулярное</br>
+						поступление новых видов сыров!</br>
+						Порадовала быстрая доставка</br>
+						и пробники сыров в подарок.
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Доставка -->
+	<section class="delivery">
+		<div class="container">
+			<h2 class="delivery__title title">Доставка в день заказа</h2>
+			<div class="delivery-block">
+				<img src="img/delivery/truck.png" alt="Изображение" class="delivery-block__img">
+				<div class="delivery-block__right">
+					<span class="delivery-block__text-a">
+						Мы осуществляем <span><b>доставку</b></span> сыров по СПБ</br>
+						в день вашего заказа*</br>
+						(при заказе после 21:47 на следущий день)
+					</span>
+					<span class="delivery-block__text-b">
+						Чек от 1740 ₽ - доставка бесплатно.
+					</span>
+					<span class="delivery-block__text-c">
+						Заказ вы можете оплатить на сайте,</br>
+						картой или наличными курьеру.
+					</span>
+					<span class="delivery-block__text-d">
+						<span><b>Закажите сыр прямо сейчас</b></span> и мы привезем </br>
+						его в течение 3 часов или в удобное для вас время
+					</span>
+					<a href="#modal-1" class="delivery-block__btn btn">Пора заказывать</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Вопросы -->
+	<section class="questions">
+		<div class="container">
+			<h2 class="questions__title title">Часто задаваемые вопросы</h2>
+			<div class="questions__block">
+				<div class="questions__left">
+					<div class="questions-card">
+						<h4 class="questions-card__title">Какой вид сыра вашего производства лучший?</h4>
+						<span class="questions-card__text">
+							Приобретая сыр нашего производства, вы не ошибетесь в выборе,</br>
+							потому что каждый вид нашего сыра натуральный, обладает</br>
+							насыщенным вкусом.
+						</span>
+					</div>
+					<div class="questions-card">
+						<h4 class="questions-card__title">Можно ли заказать небольшой кусок сыра на пробу?</h4>
+						<span class="questions-card__text">
+							Вы можете заказать хоть 1 кусок сыра и мы привезём его</br>
+							в день заказа, доставка будет стоить 340 рублей.
+						</span>
+					</div>
+					<div class="questions-card">
+						<h4 class="questions-card__title">Я не разбираюсь в сыре и теряюсь в выборе, что делать?</h4>
+						<span class="questions-card__text">
+							Для решения этого вопроса вы можете связаться с нами </br>
+							по контактам ниже, и мы с удовольствием расскажем вам о сыре, </br>
+							о нашем ассортименте и поможет определиться с выбором.
+						</span>
+					</div>
+				</div>
+				<img src="img/questions/c.png" alt="Изображение" class="questions__right">
+			</div>
+		</div>
+	</section>
+
+	<!-- Контакты -->
+	<section class="contacts" id="contacts">
+		<div class="container">
+			<h2 class="contacts__title title">Ответим по этим контактам</br>
+				прямо сейчас</h2>
+			<div class="contacts-block">
+				<div class="contacts__info">
+					<div class="contacts__list">
+						<span class="contacts__name">Телефон:
+						</span>
+						<a href="tel:89219345676" class="contacts__text">+7 (921) 934-56-76</a>
+					</div>
+					<div class="contacts__list">
+						<span class="contacts__name">E-mail:
+						</span>
+						<a href="mailto:klimovasvetlana027@gmail.com" class="contacts__text">klimovasvetlana027@gmail.com</a>
+					</div>
+					<div class="contacts__list">
+						<span class="contacts__name">Адрес:
+						</span>
+						<span class="contacts__text">Псковское княжество, дер.Ваулино</span>
+					</div>
+				</div>
+				<div class="contacts__map">
+					<iframe
+						src="https://yandex.ru/map-widget/v1/?um=constructor%3A003396d030debbca1a09c6cfd1c65b51fa95f4c2147daa1d4d5416a043839e00&amp;source=constructor"
+						width="638" height="452" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Мы в соц сетях -->
+	<section class="social" id="social">
+		<div class="container">
+			<div class="social-block">
+				<div class="social__image">
+					<img src="img/social/cheese-social.png" alt="сыр" class="social__img">
+				</div>
+				<div class="social__info">
+					<h3 class="social__title">Мы в социальных сетях:</h3>
+					<div class="social__icons">
+						<a href="#" class="social__link">
+							<img src="img/social/instagram.svg" alt="инстаграм" class="social__icon">
+						</a>
+						<a href="#" class="social__link">
+							<img src="img/social/vk.svg" alt="вконтакте" class="social__icon">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-block">
+				<div class="footer__logo">
+					<img src="img/header/logo.png" alt="тремпелне">
+				</div>
+				<div class="footer__menu">
+					<a href="#advantage" class="footer__link">О нас</a>
+					<a href="#catalog" class="footer__link">Каталог сыров</a>
+					<a href="#contacts" class="footer__link">Контакты</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/modal.js"></script>
+	<script src="js/parallax.js"></script>
+</body>
+
+</html>
